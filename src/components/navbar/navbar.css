@@ -41,6 +41,7 @@
     font-weight: 500;
     margin: 0.8rem 1rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .nekoh__navbar-sign button, 
