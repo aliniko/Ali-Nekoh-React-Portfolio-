@@ -3,8 +3,8 @@ import './whatali.css';
 
 const WhatAli = () => {
     return (
-        <div>
-            WhatAli
+        <div className='nekoh__WhatAli section__margin' id='WhatAli'>
+            
         </div>
     )
 }

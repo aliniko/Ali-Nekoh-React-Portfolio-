@@ -7,6 +7,7 @@ import {
   Features,
   Header,
   WhatAli,
+  WhatNekoh
 } from "./containers";
 import { CTA, Brand, Navbar } from "./components";
 import "./App.css";
@@ -20,6 +21,7 @@ const App = () => {
       </div>
       <Brand />
       <WhatAli />
+      <WhatNekoh />
       <Features />
       <Possibility />
       <CTA />

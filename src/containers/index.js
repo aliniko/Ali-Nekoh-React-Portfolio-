@@ -4,3 +4,5 @@ export { default as Footer} from './footer/Footer';
 export { default as Header} from './header/Header';
 export { default as Possibility} from './possibility/Possibility';
 export { default as WhatAli} from './whatali/WhatAli';
+export { default as WhatNekoh} from './whatnekoh/WhatNekoh';
+
