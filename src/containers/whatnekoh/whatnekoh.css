@@ -50,3 +50,71 @@
     min-width: 510px;
     font-family: var(--font-family);
 }
+
+.nekoh__whatnekoh-heading p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.nekoh__whatnekoh-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+
+/* Customizing feature component as per needs */
+.nekoh__whatnekoh-container .nekoh__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.nekoh__whatnekoh-container .nekoh__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .nekoh__whatnekoh-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .nekoh__whatnekoh-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .nekoh__whatnekoh-feature .nekoh__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .nekoh__whatnekoh-feature .nekoh__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .nekoh__whatnekoh-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .nekoh__whatnekoh-container .nekoh__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
