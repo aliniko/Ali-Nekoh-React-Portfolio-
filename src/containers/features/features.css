@@ -39,5 +39,21 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+}
 
+@media screen and (max-width: 990px) {
+    .nekoh__features {
+        flex-direction: column;
+    }
+
+    .nekoh__features-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nekoh__features-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
 }
