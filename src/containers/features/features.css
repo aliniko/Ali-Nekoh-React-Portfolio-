@@ -1,0 +1,43 @@
+.nekoh__features {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.nekoh__features-heading {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 2rem;
+}
+
+.nekoh__features-heading h1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-style: 34px;
+    line-height: 45px;
+}
+
+.nekoh__features-heading p{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ff8a71;
+    margin-top: 2rem;
+}
+
+.nekoh__features-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
