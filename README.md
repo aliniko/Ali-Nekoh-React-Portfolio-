@@ -8,3 +8,5 @@
 ### currently working with Reactjs to rebuild my portfolio from scratch 
 It is fun and amazing working with React 
 [svg logo / vector logo](vectr.com)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7cf35c28-d59c-48c5-bd62-20475f99acb9/deploy-status)](https://app.netlify.com/sites/alinekoh2/deploys)
